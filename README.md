@@ -15,7 +15,7 @@
 >> 树
 >>> 二叉树
 
-```object-c
+```objc
 // 代码片段
 - (void)viewDidLoad {
     [super viewDidLoad];
