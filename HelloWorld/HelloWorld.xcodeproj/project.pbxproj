@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E27DCA9B1D728A62001AB6BD /* 123456.png in Resources */ = {isa = PBXBuildFile; fileRef = E27DCA9A1D728A62001AB6BD /* 123456.png */; };
 		E2E9A3C51D6D715900A0DBAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E9A3C41D6D715900A0DBAD /* main.m */; };
 		E2E9A3C81D6D715900A0DBAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E9A3C71D6D715900A0DBAD /* AppDelegate.m */; };
 		E2E9A3CB1D6D715900A0DBAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E9A3CA1D6D715900A0DBAD /* ViewController.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E27DCA9A1D728A62001AB6BD /* 123456.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 123456.png; sourceTree = "<group>"; };
 		E2E9A3C01D6D715900A0DBAD /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E9A3C41D6D715900A0DBAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2E9A3C61D6D715900A0DBAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E27DCA991D728A62001AB6BD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E27DCA9A1D728A62001AB6BD /* 123456.png */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		E2E9A3B71D6D715900A0DBAD = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		E2E9A3C21D6D715900A0DBAD /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				E27DCA991D728A62001AB6BD /* Source */,
 				E2E9A3C61D6D715900A0DBAD /* AppDelegate.h */,
 				E2E9A3C71D6D715900A0DBAD /* AppDelegate.m */,
 				E2E9A3C91D6D715900A0DBAD /* ViewController.h */,
@@ -138,6 +149,7 @@
 			files = (
 				E2E9A3D31D6D715900A0DBAD /* LaunchScreen.storyboard in Resources */,
 				E2E9A3D01D6D715900A0DBAD /* Assets.xcassets in Resources */,
+				E27DCA9B1D728A62001AB6BD /* 123456.png in Resources */,
 				E2E9A3CE1D6D715900A0DBAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +312,7 @@
 				E2E9A3D91D6D715900A0DBAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
